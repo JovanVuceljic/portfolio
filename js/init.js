@@ -1,6 +1,6 @@
 (function($){
   $(function(){
-    console.log("Document is ready !")
+    // console.log("Document is ready !")
 
     $('.button-collapse').sideNav();
 
@@ -10,8 +10,8 @@
         e.preventDefault();
         $(".side-link a").removeClass('active-side-link');
         $(this).addClass('active-side-link');
-
         var elemToScroll = $(e.target).attr('link');
+        if(!$(elemToScroll).offset()) return;
         $('html, body').animate({
             scrollTop: $(elemToScroll).offset().top
         }, 500);
