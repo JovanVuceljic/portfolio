@@ -1,6 +1,5 @@
 (function($){
   $(function(){
-    // console.log("Document is ready !")
 
     $('.button-collapse').sideNav();
 
