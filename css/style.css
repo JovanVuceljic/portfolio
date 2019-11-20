@@ -1,4 +1,3 @@
-
 .logo {
   text-align: center;
   margin-top: 32px;
@@ -11,7 +10,7 @@
 }
 
 .side-bar {
-  background: #222729 url('../images/overlay.png');
+  background: #222729 url("../images/overlay.png");
 }
 
 .side-link {
@@ -35,7 +34,7 @@
 
 .side-link-footer a {
   cursor: pointer;
-  color: #FFF !important;
+  color: #fff !important;
   display: inline !important;
   padding: 0px !important;
 }
@@ -56,13 +55,13 @@
 }
 
 .float-left {
-  float:left;
-  width:48%
+  float: left;
+  width: 48%;
 }
 
 .float-right {
-  float:right;
-  width:48%
+  float: right;
+  width: 48%;
 }
 
 .modal-footer a {
@@ -73,44 +72,48 @@ footer.page-footer {
   padding-top: 0px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   padding-left: 240px;
 }
 
 .github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out
+  animation: octocat-wave 560ms ease-in-out;
 }
 
-img:last-child{
+img:last-child {
   display: none;
 }
 
 @keyframes octocat-wave {
   0%,
   100% {
-    transform: rotate(0)
+    transform: rotate(0);
   }
   20%,
   60% {
-    transform: rotate(-25deg)
+    transform: rotate(-25deg);
   }
   40%,
   80% {
-    transform: rotate(10deg)
+    transform: rotate(10deg);
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .github-corner:hover .octo-arm {
-    animation: none
+    animation: none;
   }
   .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out
+    animation: octocat-wave 560ms ease-in-out;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  header, main, footer {
+  header,
+  main,
+  footer {
     padding-left: 0;
   }
 }
