@@ -107,6 +107,16 @@ main a {
   color: black;
   text-decoration: underline;
 }
+.experience .collapsible-body {
+ padding-top: 15px;
+ padding-bottom: 25px; 
+}
+.experience .collapsible-body img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 200px;
+}
 .education .collapsible-body a {
   display: block;
   margin: 5px auto 20px auto;
